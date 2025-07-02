@@ -640,102 +640,112 @@ html body #main-outlet {
 }
 
 // Signup value proposition styling
+.signup-value-proposition,
+.signup-value-proposition * {
+  writing-mode: initial !important;
+  text-orientation: initial !important;
+  direction: ltr !important;
+  unicode-bidi: normal !important;
+  box-sizing: border-box !important;
+}
+
 .signup-value-proposition {
-  margin: 2em 0;
-  padding: 2em;
-  background: var(--secondary, #fff);
-  border-radius: 1em;
-  border: 1px solid var(--primary-low, #e0e0e0);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  margin: 2em 0 !important;
+  padding: 2em !important;
+  background: #f5f7fa !important;
+  border-radius: 1em !important;
+  border: 1px solid #e0e0e0 !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05) !important;
 
   .value-proposition-content {
-    max-width: 800px;
-    margin: 0 auto;
+    max-width: 800px !important;
+    margin: 0 auto !important;
   }
 
   .value-proposition-title {
-    font-size: 2em;
-    font-weight: bold;
-    color: var(--primary, #222);
-    text-align: center;
-    margin-bottom: 1.5em;
+    font-size: 2em !important;
+    font-weight: bold !important;
+    color: #222 !important;
+    text-align: center !important;
+    margin-bottom: 1.5em !important;
   }
 
   .value-proposition-benefits {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 1.5em;
-    margin-bottom: 2em;
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    gap: 1.5em !important;
+    margin-bottom: 2em !important;
 
     @media (min-width: 600px) {
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr !important;
     }
   }
 
   .benefit-item {
-    display: flex;
-    align-items: flex-start;
-    gap: 1em;
-    padding: 1em;
-    background: var(--highlight-low, #f5f7fa);
-    border-radius: 0.5em;
-    border: 1px solid var(--primary-low, #e0e0e0);
-    min-width: 0;
-    box-sizing: border-box;
-    transition: background 0.2s;
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: flex-start !important;
+    gap: 1em !important;
+    padding: 1em !important;
+    background: #fff !important;
+    border-radius: 0.5em !important;
+    border: 1px solid #e0e0e0 !important;
+    min-width: 0 !important;
+    box-sizing: border-box !important;
+    transition: background 0.2s !important;
 
     &:hover {
-      background: var(--highlight-medium, #e6f0fa);
+      background: #e6f0fa !important;
     }
   }
 
   .benefit-icon {
-    font-size: 2em;
-    flex-shrink: 0;
-    width: 2.5em;
-    height: 2.5em;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: var(--tertiary-low, #e6f0fa);
-    border-radius: 50%;
-    color: var(--tertiary, #3877e5);
+    font-size: 2em !important;
+    flex-shrink: 0 !important;
+    width: 2.5em !important;
+    height: 2.5em !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    background: #e6f0fa !important;
+    border-radius: 50% !important;
+    color: #3877e5 !important;
   }
 
   .benefit-text {
-    flex: 1;
-    min-width: 0;
+    flex: 1 !important;
+    min-width: 0 !important;
 
     strong {
-      display: block;
-      font-size: 1.1em;
-      color: var(--primary, #222);
-      margin-bottom: 0.25em;
-      font-weight: 600;
-      text-align: left;
+      display: block !important;
+      font-size: 1.1em !important;
+      color: #222 !important;
+      margin-bottom: 0.25em !important;
+      font-weight: 600 !important;
+      text-align: left !important;
     }
 
     span {
-      color: var(--primary-medium, #555);
-      font-size: 1em;
-      line-height: 1.4;
-      text-align: left;
-      word-break: break-word;
+      color: #555 !important;
+      font-size: 1em !important;
+      line-height: 1.4 !important;
+      text-align: left !important;
+      word-break: break-word !important;
     }
   }
 
   .value-proposition-cta {
-    text-align: center;
-    padding: 1.5em;
-    background: var(--tertiary-low, #e6f0fa);
-    border-radius: 0.5em;
-    border: 2px solid var(--tertiary, #3877e5);
+    text-align: center !important;
+    padding: 1.5em !important;
+    background: #e6f0fa !important;
+    border-radius: 0.5em !important;
+    border: 2px solid #3877e5 !important;
 
     p {
-      margin: 0;
-      font-size: 1.2em;
-      color: var(--tertiary, #3877e5);
-      font-weight: 600;
+      margin: 0 !important;
+      font-size: 1.2em !important;
+      color: #3877e5 !important;
+      font-weight: 600 !important;
     }
   }
 }
