@@ -23,6 +23,7 @@ This theme includes a handful of components to enhance your forum as well.
 - Discourse Loading Slider
 - Discourse Search Banner
 - Modern Category + Group Boxes
+- Customizable Signup Value Proposition
 
 > :exclamation: Please read through these tips upon installation, as there are a couple of settings that **NEED TO BE ENABLED** for this to theme to render properly.
 
@@ -59,6 +60,31 @@ This theme component requires your categories to use the **CATEGORY BOXES WITH S
 ![image](https://user-images.githubusercontent.com/5862206/214545903-c4bd61b9-1893-48e0-84e7-502efc26c46d.png)
 
 This theme component also allows the forum admin to organize their category page with header titles, and choose which categories appear under each header. To keep things simple, I have only allowed up to 5 headings to be used. **If no categories + heading settings are chosen, all categories will render as they do above, this is the default rendering option.**
+
+---
+
+## Customizable Signup Value Proposition
+
+This theme includes a comprehensive value proposition section that appears on the signup page below the main title. Forum administrators can configure the title, benefits, and call-to-action through the theme settings.
+
+The value proposition includes:
+- **Main Title**: Customizable headline for the section
+- **Four Benefit Items**: Each with an icon, title, and description
+- **Call-to-Action**: Encouraging text at the bottom
+
+To customize the signup value proposition:
+
+1. Go to your forum's admin panel
+2. Navigate to **Customize** → **Themes**
+3. Find the "Air Theme" and click **Edit**
+4. In the settings, you'll find various options:
+   - **Enable/Disable**: Toggle the feature on/off
+   - **Main Title**: Set the headline text
+   - **Call-to-Action**: Set the bottom message
+   - **Benefits**: Configure up to 4 benefit items with icons, titles, and descriptions
+5. Save the changes
+
+The value proposition will appear below the "Create Account" title on the signup page, showcasing the benefits of joining your community with an attractive, professional design.
 
 ---
 

@@ -2,6 +2,7 @@
   "name": "Air Theme",
   "about_url": "https://meta.discourse.org/t/discourse-air-theme/197703",
   "license_url": "https://github.com/discourse/discourse-air/blob/main/LICENSE",
+  "description": "A clean & modern theme with dark mode option and customizable signup subheader.",
   "components": [
     "https://github.com/jordanvidrine/discourse-category-group-boxes.git",
     "https://github.com/discourse/discourse-clickable-topic.git",

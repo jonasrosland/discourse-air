@@ -638,3 +638,103 @@ html body #main-outlet {
 .title-voting {
   padding-left: 14px;
 }
+
+// Signup value proposition styling
+.signup-value-proposition {
+  margin: 2em 0;
+  padding: 2em;
+  background: var(--secondary);
+  border-radius: 1em;
+  border: 1px solid var(--primary-low);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  
+  .value-proposition-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .value-proposition-title {
+    font-size: var(--font-up-2);
+    font-weight: bold;
+    color: var(--primary);
+    text-align: center;
+    margin-bottom: 1.5em;
+    
+    @media (min-width: 768px) {
+      font-size: var(--font-up-3);
+    }
+  }
+  
+  .value-proposition-benefits {
+    display: grid;
+    gap: 1.5em;
+    margin-bottom: 2em;
+    
+    @media (min-width: 768px) {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 2em;
+    }
+  }
+  
+  .benefit-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 1em;
+    padding: 1em;
+    background: var(--highlight-low);
+    border-radius: 0.5em;
+    border: 1px solid var(--primary-low);
+    
+    &:hover {
+      background: var(--highlight-medium);
+      transform: translateY(-2px);
+      transition: all 0.2s ease;
+    }
+  }
+  
+  .benefit-icon {
+    font-size: var(--font-up-2);
+    flex-shrink: 0;
+    width: 2.5em;
+    height: 2.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--tertiary-low);
+    border-radius: 50%;
+    color: var(--tertiary);
+  }
+  
+  .benefit-text {
+    flex: 1;
+    
+    strong {
+      display: block;
+      font-size: var(--font-up-1);
+      color: var(--primary);
+      margin-bottom: 0.25em;
+      font-weight: 600;
+    }
+    
+    span {
+      color: var(--primary-medium);
+      font-size: var(--font-down-1);
+      line-height: 1.4;
+    }
+  }
+  
+  .value-proposition-cta {
+    text-align: center;
+    padding: 1.5em;
+    background: var(--tertiary-low);
+    border-radius: 0.5em;
+    border: 2px solid var(--tertiary);
+    
+    p {
+      margin: 0;
+      font-size: var(--font-up-1);
+      color: var(--tertiary);
+      font-weight: 600;
+    }
+  }
+}
