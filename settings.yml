@@ -1,72 +1,71 @@
-plugins:
-  # Signup Subheader Settings
-  signup_subheader_enabled:
-    default: true
-    client: true
-    description: "Enable the signup value proposition subheader"
+# Signup Subheader Settings
+signup_subheader_enabled:
+  default: true
+  client: true
+  description: "Enable the signup value proposition subheader"
 
-  signup_subheader_title:
-    default: "Join Our Community"
-    client: true
-    description: "Main title for the signup subheader"
+signup_subheader_title:
+  default: "Join Our Community"
+  client: true
+  description: "Main title for the signup subheader"
 
-  signup_subheader_cta:
-    default: "Create your account to unlock these benefits and start your journey!"
-    client: true
-    description: "Call-to-action text at the bottom of the subheader"
+signup_subheader_cta:
+  default: "Create your account to unlock these benefits and start your journey!"
+  client: true
+  description: "Call-to-action text at the bottom of the subheader"
 
-  # Benefit 1
-  benefit_1_icon:
-    default: "🎓"
-    client: true
-    description: "Icon for benefit 1 (emoji or text)"
-  benefit_1_title:
-    default: "Access Learning Platform"
-    client: true
-    description: "Title for benefit 1"
-  benefit_1_description:
-    default: "Get exclusive access to training, certifications, and learning paths"
-    client: true
-    description: "Description for benefit 1"
+# Benefit 1
+benefit_1_icon:
+  default: "🎓"
+  client: true
+  description: "Icon for benefit 1 (emoji or text)"
+benefit_1_title:
+  default: "Access Learning Platform"
+  client: true
+  description: "Title for benefit 1"
+benefit_1_description:
+  default: "Get exclusive access to training, certifications, and learning paths"
+  client: true
+  description: "Description for benefit 1"
 
-  # Benefit 2
-  benefit_2_icon:
-    default: "🔬"
-    client: true
-    description: "Icon for benefit 2 (emoji or text)"
-  benefit_2_title:
-    default: "Explore Hands-on Labs"
-    client: true
-    description: "Title for benefit 2"
-  benefit_2_description:
-    default: "Hands-on labs and tutorials to master new technologies"
-    client: true
-    description: "Description for benefit 2"
+# Benefit 2
+benefit_2_icon:
+  default: "🔬"
+  client: true
+  description: "Icon for benefit 2 (emoji or text)"
+benefit_2_title:
+  default: "Explore Hands-on Labs"
+  client: true
+  description: "Title for benefit 2"
+benefit_2_description:
+  default: "Hands-on labs and tutorials to master new technologies"
+  client: true
+  description: "Description for benefit 2"
 
-  # Benefit 3
-  benefit_3_icon:
-    default: "👥"
-    client: true
-    description: "Icon for benefit 3 (emoji or text)"
-  benefit_3_title:
-    default: "Connect with Experts"
-    client: true
-    description: "Title for benefit 3"
-  benefit_3_description:
-    default: "Join discussions with engineers, architects, and community members"
-    client: true
-    description: "Description for benefit 3"
+# Benefit 3
+benefit_3_icon:
+  default: "👥"
+  client: true
+  description: "Icon for benefit 3 (emoji or text)"
+benefit_3_title:
+  default: "Connect with Experts"
+  client: true
+  description: "Title for benefit 3"
+benefit_3_description:
+  default: "Join discussions with engineers, architects, and community members"
+  client: true
+  description: "Description for benefit 3"
 
-  # Benefit 4
-  benefit_4_icon:
-    default: "📚"
-    client: true
-    description: "Icon for benefit 4 (emoji or text)"
-  benefit_4_title:
-    default: "Access Resources"
-    client: true
-    description: "Title for benefit 4"
-  benefit_4_description:
-    default: "Documentation, best practices, and troubleshooting guides"
-    client: true
-    description: "Description for benefit 4"
+# Benefit 4
+benefit_4_icon:
+  default: "📚"
+  client: true
+  description: "Icon for benefit 4 (emoji or text)"
+benefit_4_title:
+  default: "Access Resources"
+  client: true
+  description: "Title for benefit 4"
+benefit_4_description:
+  default: "Documentation, best practices, and troubleshooting guides"
+  client: true
+  description: "Description for benefit 4"
