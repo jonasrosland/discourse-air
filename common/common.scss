@@ -640,112 +640,104 @@ html body #main-outlet {
 }
 
 // Signup value proposition styling
-.signup-value-proposition,
-.signup-value-proposition * {
-  writing-mode: initial !important;
-  text-orientation: initial !important;
-  direction: ltr !important;
-  unicode-bidi: normal !important;
-  box-sizing: border-box !important;
-}
-
 .signup-value-proposition {
-  margin: 2em 0 !important;
-  padding: 2em !important;
-  background: #f5f7fa !important;
-  border-radius: 1em !important;
-  border: 1px solid #e0e0e0 !important;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05) !important;
+  margin: 2em 0;
+  padding: 2em;
+  background: #fff;
+  border-radius: 1em;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.07);
 
   .value-proposition-content {
-    max-width: 800px !important;
-    margin: 0 auto !important;
+    max-width: 800px;
+    margin: 0 auto;
   }
 
   .value-proposition-title {
-    font-size: 2em !important;
-    font-weight: bold !important;
-    color: #222 !important;
-    text-align: center !important;
-    margin-bottom: 1.5em !important;
+    font-size: 2em;
+    font-weight: bold;
+    color: #222;
+    text-align: center;
+    margin-bottom: 1.5em;
   }
 
   .value-proposition-benefits {
-    display: grid !important;
-    grid-template-columns: 1fr !important;
-    gap: 1.5em !important;
-    margin-bottom: 2em !important;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5em;
+    margin-bottom: 2em;
 
-    @media (min-width: 600px) {
-      grid-template-columns: 1fr 1fr !important;
+    @media (min-width: 700px) {
+      grid-template-columns: 1fr 1fr;
     }
   }
 
   .benefit-item {
-    display: flex !important;
-    flex-direction: row !important;
-    align-items: flex-start !important;
-    gap: 1em !important;
-    padding: 1em !important;
-    background: #fff !important;
-    border-radius: 0.5em !important;
-    border: 1px solid #e0e0e0 !important;
-    min-width: 0 !important;
-    box-sizing: border-box !important;
-    transition: background 0.2s !important;
+    display: flex;
+    align-items: flex-start;
+    gap: 1em;
+    padding: 1.25em 1em;
+    background: #f7f9fa;
+    border-radius: 0.5em;
+    border: 1px solid #e0e0e0;
+    min-width: 0;
+    box-sizing: border-box;
+    transition: background 0.2s;
 
     &:hover {
-      background: #e6f0fa !important;
+      background: #e6f0fa;
     }
   }
 
   .benefit-icon {
-    font-size: 2em !important;
-    flex-shrink: 0 !important;
-    width: 2.5em !important;
-    height: 2.5em !important;
-    display: flex !important;
-    align-items: center !important;
-    justify-content: center !important;
-    background: #e6f0fa !important;
-    border-radius: 50% !important;
-    color: #3877e5 !important;
+    font-size: 2em;
+    flex-shrink: 0;
+    width: 2.5em;
+    height: 2.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #e6f0fa;
+    border-radius: 50%;
+    color: #3877e5;
+    box-shadow: 0 2px 6px rgba(56,119,229,0.08);
   }
 
   .benefit-text {
-    flex: 1 !important;
-    min-width: 0 !important;
+    flex: 1;
+    min-width: 0;
 
     strong {
-      display: block !important;
-      font-size: 1.1em !important;
-      color: #222 !important;
-      margin-bottom: 0.25em !important;
-      font-weight: 600 !important;
-      text-align: left !important;
+      display: block;
+      font-size: 1.1em;
+      color: #222;
+      margin-bottom: 0.25em;
+      font-weight: 600;
+      text-align: left;
     }
 
     span {
-      color: #555 !important;
-      font-size: 1em !important;
-      line-height: 1.4 !important;
-      text-align: left !important;
-      word-break: break-word !important;
+      color: #555;
+      font-size: 1em;
+      line-height: 1.5;
+      text-align: left;
+      word-break: break-word;
     }
   }
 
   .value-proposition-cta {
-    text-align: center !important;
-    padding: 1.5em !important;
-    background: #e6f0fa !important;
-    border-radius: 0.5em !important;
-    border: 2px solid #3877e5 !important;
+    text-align: center;
+    padding: 1.5em;
+    background: #e6f0fa;
+    border-radius: 0.5em;
+    border: 2px solid #3877e5;
+    margin-top: 1em;
 
     p {
-      margin: 0 !important;
-      font-size: 1.2em !important;
-      color: #3877e5 !important;
-      font-weight: 600 !important;
+      margin: 0;
+      font-size: 1.2em;
+      color: #3877e5;
+      font-weight: 600;
     }
   }
 }
