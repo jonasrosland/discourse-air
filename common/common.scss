@@ -643,97 +643,98 @@ html body #main-outlet {
 .signup-value-proposition {
   margin: 2em 0;
   padding: 2em;
-  background: var(--secondary);
+  background: var(--secondary, #fff);
   border-radius: 1em;
-  border: 1px solid var(--primary-low);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  
+  border: 1px solid var(--primary-low, #e0e0e0);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+
   .value-proposition-content {
     max-width: 800px;
     margin: 0 auto;
   }
-  
+
   .value-proposition-title {
-    font-size: var(--font-up-2);
+    font-size: 2em;
     font-weight: bold;
-    color: var(--primary);
+    color: var(--primary, #222);
     text-align: center;
     margin-bottom: 1.5em;
-    
-    @media (min-width: 768px) {
-      font-size: var(--font-up-3);
-    }
   }
-  
+
   .value-proposition-benefits {
     display: grid;
+    grid-template-columns: 1fr;
     gap: 1.5em;
     margin-bottom: 2em;
-    
-    @media (min-width: 768px) {
-      grid-template-columns: repeat(2, 1fr);
-      gap: 2em;
+
+    @media (min-width: 600px) {
+      grid-template-columns: 1fr 1fr;
     }
   }
-  
+
   .benefit-item {
     display: flex;
     align-items: flex-start;
     gap: 1em;
     padding: 1em;
-    background: var(--highlight-low);
+    background: var(--highlight-low, #f5f7fa);
     border-radius: 0.5em;
-    border: 1px solid var(--primary-low);
-    
+    border: 1px solid var(--primary-low, #e0e0e0);
+    min-width: 0;
+    box-sizing: border-box;
+    transition: background 0.2s;
+
     &:hover {
-      background: var(--highlight-medium);
-      transform: translateY(-2px);
-      transition: all 0.2s ease;
+      background: var(--highlight-medium, #e6f0fa);
     }
   }
-  
+
   .benefit-icon {
-    font-size: var(--font-up-2);
+    font-size: 2em;
     flex-shrink: 0;
     width: 2.5em;
     height: 2.5em;
     display: flex;
     align-items: center;
     justify-content: center;
-    background: var(--tertiary-low);
+    background: var(--tertiary-low, #e6f0fa);
     border-radius: 50%;
-    color: var(--tertiary);
+    color: var(--tertiary, #3877e5);
   }
-  
+
   .benefit-text {
     flex: 1;
-    
+    min-width: 0;
+
     strong {
       display: block;
-      font-size: var(--font-up-1);
-      color: var(--primary);
+      font-size: 1.1em;
+      color: var(--primary, #222);
       margin-bottom: 0.25em;
       font-weight: 600;
+      text-align: left;
     }
-    
+
     span {
-      color: var(--primary-medium);
-      font-size: var(--font-down-1);
+      color: var(--primary-medium, #555);
+      font-size: 1em;
       line-height: 1.4;
+      text-align: left;
+      word-break: break-word;
     }
   }
-  
+
   .value-proposition-cta {
     text-align: center;
     padding: 1.5em;
-    background: var(--tertiary-low);
+    background: var(--tertiary-low, #e6f0fa);
     border-radius: 0.5em;
-    border: 2px solid var(--tertiary);
-    
+    border: 2px solid var(--tertiary, #3877e5);
+
     p {
       margin: 0;
-      font-size: var(--font-up-1);
-      color: var(--tertiary);
+      font-size: 1.2em;
+      color: var(--tertiary, #3877e5);
       font-weight: 600;
     }
   }
